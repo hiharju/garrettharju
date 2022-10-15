@@ -1,0 +1,52 @@
+*{
+    width: 100%;
+    font-size: 12pt;
+    font-family: sans-serif;
+    background: white;
+    color: black;
+    text-align: left;
+    margin: 0px;
+    padding: 0px;
+    display: block;
+    opacity: 1;
+    border: none;
+    text-shadow: none;
+    font-weight: normal;
+    list-style-type: none;
+}
+h1,h2,h3,h4,h5,h6{
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+a>img, div>img,  video{
+    display: none;
+}
+.cert-img{
+    display: none;
+}
+a>i{
+    display: none;
+}
+section{
+    width: 100%;
+    height: min-content;
+    box-shadow: none;
+}
+/* Couldn't get the font awesome script to not print without commenting it out in the head section. */
+script{
+    display: none;
+}
+article{
+    margin: 0;
+    padding: 0;
+}
+.topNav{
+    display: inline;
+}
+li>a{
+    display: none;
+}
+section>a{
+    display: none;
+}
